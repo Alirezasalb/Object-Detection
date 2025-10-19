@@ -105,9 +105,9 @@ class YOLOObjectCounter:
             print(f"  {cls}: {count}")
 
         # Optional: Show full ID → class mapping
-        print("\nFull mapping (ID → Class):")
-        for tid, cls in sorted(self.track_id_to_class.items()):
-             print(f"  ID {tid}: {cls}")
+        # print("\nFull mapping (ID → Class):")
+        # for tid, cls in sorted(self.track_id_to_class.items()):
+        #    print(f"  ID {tid}: {cls}")
 
 
 # ----------------------------
