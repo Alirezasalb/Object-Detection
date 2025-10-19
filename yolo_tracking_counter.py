@@ -4,8 +4,6 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import cv2
 import numpy as np
 from ultralytics import YOLO
-import os
-
 
 class YOLOObjectCounter:
     def __init__(self, model_path='yolov8n.pt', confidence_threshold=0.5):
