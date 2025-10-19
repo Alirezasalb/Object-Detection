@@ -116,7 +116,8 @@ class YOLOObjectCounter:
 
 if __name__ == "__main__":
     # Configuration
-    VIDEO_PATH = "D:/projects/trak2/vids/11.mp4"  # Set to 0 for webcam
+    VIDEO_PATH = "vids/11.mp4"  # Set to 0 for webcam
+    #VIDEO_PATH = 0
     OUTPUT_PATH = None  # e.g., "output_tracked.mp4" to save
     MODEL = "yolov8n.pt"  # Options: yolov8n, yolov8s, yolov8m, yolov8l, yolov8x
 
