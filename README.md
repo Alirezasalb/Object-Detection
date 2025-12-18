@@ -63,10 +63,10 @@ Breakdown by class:
 
 ### Edit `yolo_tracking_counter.py` to: 
 
-#### Change model (`yolov8n.pt`, `yolov8s.pt`, etc.)
-#### Adjust confidence threshold
-#### Filter specific classes
-#### Add counting lines (contact author for advanced features)
+>#### Change model (`yolov8n.pt`, `yolov8s.pt`, etc.)
+>#### Adjust confidence threshold
+>#### Filter specific classes
+>#### Add counting lines (contact author for advanced features)
      
 
 ## License 
